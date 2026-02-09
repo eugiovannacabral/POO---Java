@@ -1,2 +1,2 @@
 # Java
-Aulas de Java 5° período
+Aulas de POO em Java 5° período do Inatel

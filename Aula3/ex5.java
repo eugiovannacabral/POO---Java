@@ -21,7 +21,7 @@ public class ex5 {
                 System.out.println("Sala I-5");
                 break;
             default:
-                System.out.println("Ihhh filho você não está em sala nenhuma ");
+                System.out.println("Você não está em sala enhuma ");
                 break;
          }
 

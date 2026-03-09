@@ -18,5 +18,7 @@ public class decisoes {
         else{
             System.out.println("Qtd é menor do que 3");
         }
+
+        teclado.close();
     }
 }

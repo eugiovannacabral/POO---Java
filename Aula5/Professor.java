@@ -8,4 +8,18 @@ public class Professor extends Pessoa { //HERANÇA
     }
 
 
+    String leciona(){
+        return "Ensina " + disciplina;
+    }
+
+    @Override
+    public void falar(){
+        System.out.println("Mudei de disciplina");
+    }
+
+
+
+
+
+
 }

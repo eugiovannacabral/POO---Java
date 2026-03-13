@@ -29,7 +29,7 @@ public class Main {
         Eng.ministraAula();
         Eng.constroi();
 
-        Monitor monitor new = Monitor();
+        Monitor monitor = new Monitor();
         
     }
 }

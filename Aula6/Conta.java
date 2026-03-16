@@ -5,19 +5,23 @@ public class Conta {
     public double saldo;
     public double limite;
     public int agencia;
-    public int numeroConta;
+    //public int numeroConta;
+    public String nomeDono;
 
 
     //Metodos
     public void deposita(double quantia){
-        this.saldo = this.saldo + quantia; // ou this.saldo += quantia;
+        this.saldo = this.saldo + quantia; // ou this.saldo += quantia; // this ajuda a encontarr um metodo da classe
     }
 
-    public void saca(double quantia){
-        this.saldo = this.saldo - quantia;
+    public void saque(double quantia){
+        this.saldo -=  quantia;
     }
 
-
+    public void transferir(Conta contaDestino, double quantia){
+        this.saldo -= quantia;
+        contaDestino.saldo += quantia;
+    }
 
 
 

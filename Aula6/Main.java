@@ -3,40 +3,38 @@ package Aula6;
 public class Main {
     public static void main(String[] args) {
 
-        Conta conta = new Conta();
+        Conta conta = new Conta();//criando um objeto
         //var conta = new Conta(); -> tipo implicito de criação de obj
 
         conta.saldo = 700;
-        conta.numeroConta = 12343;
+        conta.nomeDono = "Gabriela";
         conta.agencia = 0001;
         conta.limite = 400;
 
 
         conta.deposita( 600);
 
-        System.out.println("Na conta" + conta.numeroConta + "tem R$" + conta.saldo);
+        System.out.println("Na conta do(a)" + conta.nomeDono + "tem R$" + conta.saldo);
 
-        conta.saca(400);
+        conta.saque(400);
 
-        System.out.println("Na conta" + conta.numeroConta + "tem R$" + conta.saldo);
+        System.out.println("Na conta" + conta.nomeDono + "tem R$" + conta.saldo);
+
+        System.out.println("--------------------");
 
 
         Conta conta2 = new Conta();
-        //var conta = new Conta(); -> tipo implicito de criação de obj
-
         conta2.saldo = 700;
-        conta2.numeroConta = 12343;
-        conta2.agencia = 0001;
-        conta2.limite = 400;
+        conta2.nomeDono = "Ester";
 
+        conta2.deposita( 290);
 
-        conta2.deposita( 600);
+        System.out.println("Na conta do(a)" + conta2.nomeDono + "tem R$" + conta2.saldo);
 
-        System.out.println("Na conta" + conta2.numeroConta + "tem R$" + conta2.saldo);
+        conta2.saque(40);
 
-        conta2.saca(400);
+        System.out.println("Na conta" + conta2.nomeDono + "tem R$" + conta2.saldo);
 
-        System.out.println("Na conta" + conta2.numeroConta + "tem R$" + conta2.saldo);
 
 
 

@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
     Zumbi zumbi = new Zumbi();
-    var zumbi1 = new Zumbi();
+    Zumbi zumbi1 = new Zumbi();
+    //var zumbi1 = new Zumbi();
 
     zumbi.nome = "Gagagaga";
     zumbi.força = 500;

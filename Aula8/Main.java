@@ -6,8 +6,8 @@ public class Main {
         Cliente cliente = new Cliente();
 
         cliente.nome = "Sara";
-        cliente.cpf = "111.111.111-00"
-        cliente.endereco = "Rua das Flores,55"
+        cliente.cpf = "111.111.111-00";
+        cliente.endereco = "Rua das Flores,55";
 
 
         //conta.titular = cliente;//recebe uma var que precisa ser do tipo CLIENTE para acessar os atributos dela

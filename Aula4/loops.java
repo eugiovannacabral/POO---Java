@@ -39,6 +39,7 @@ public class loops {
             System.out.println(vetor[i]);
         }
 
-
+        inatel.close();
     }
+    
 }

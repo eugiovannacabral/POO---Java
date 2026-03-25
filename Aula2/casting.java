@@ -5,7 +5,7 @@ public class casting {
         //Casting processo de converter a variavel de um tipo para outro, feito manualmente
         //Promocao é a conversao automatica
         
-        int idade = 20;
+        int idade = 21;
         long idade1 = idade;//Conversao por promocao
 
         int idade2 = (int)idade1;//Conversao casting, pois o tamanho da memoria em int é maior que a em long ent a conversão precisa ser explicita

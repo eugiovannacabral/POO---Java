@@ -21,6 +21,6 @@ public class ex3 {
         System.out.println("Total de lanches consumidos: " + soma);
         System.out.println("Media de lanches consumidos: " + media);
 
-
+        teclado.close();
     }
 }

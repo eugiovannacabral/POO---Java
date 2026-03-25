@@ -22,6 +22,8 @@ public class ex6 {
             }
             System.out.println("Qual número foi sorteado?");
             numero = teclado.nextInt();
+
+            teclado.close();
         }
     }
 }

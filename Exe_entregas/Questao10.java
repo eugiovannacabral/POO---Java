@@ -38,5 +38,7 @@ public class Questao10 {
         System.out.println(totalMeia);
         System.out.println(totalSessao);
         System.out.println(media);
+
+        teclado.close();
     }
 }

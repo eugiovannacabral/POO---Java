@@ -22,5 +22,7 @@ public class entradas {
 
         System.out.printf("%d, %.2f, %s \n", idade, altura, nome);
 
+        teclado.close();
+
     }
 }

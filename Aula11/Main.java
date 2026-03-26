@@ -1,4 +1,4 @@
-package Aula11.java;
+package Aula11;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,18 +13,13 @@ public class Main {
 
         System.out.println(vetor.toString().getBytes());
 
-        Conta [] contas = new Conta();
-        contas[0] = conta1;
+        //Conta [] contas = new Conta();
+       // contas[0] = conta1;
 
-        contas[1] = new Conta();
+        //contas[1] = new Conta();
 
-        contas[0].saldo = 90;
-        contas[1].saldo = 90;
-
-
-
-
-
+        //contas[0].saldo = 90;
+        //contas[1].saldo = 90;
 
 
 

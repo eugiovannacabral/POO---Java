@@ -16,8 +16,15 @@ public class Main {
         System.out.println("Pontos: " + personagem.pontos);
         System.out.println("Resistência: " + personagem.arma.resistencia);
 
-        System.out.println("---------------------");
+         System.out.println("------------");
         personagem.tomarDano();
-        personagem.
+        personagem.tomarDano();
+
+        personagem.usarArma();
+
+        System.out.println("Personagem: " + personagem.nome);
+        System.out.println("Pontos: " + personagem.pontos);
+        System.out.println("Resistência: " + personagem.arma.resistencia);
+        personagem.tomarDano();
     }
 }

@@ -6,11 +6,8 @@ public class Arma {
     public int resistencia;
     public String descricao;
 
-    public void mostraInfoArma(){
-        this.arma.resistencia -= 2;
-    }
-
-    public void tomarDano(){
-        
+     public void mostraInfoArma() {
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Resistência: " + this.resistencia);
     }
 }

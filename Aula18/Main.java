@@ -16,6 +16,8 @@ public class Main {
         System.out.println(b1.getNumBlocos());
         System.out.println(Bloco.getNumBlocos());
 
+       // String.format(null, args)
+
     }
 }
 

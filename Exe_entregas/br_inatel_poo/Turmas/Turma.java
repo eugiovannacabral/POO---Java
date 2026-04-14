@@ -10,7 +10,7 @@ public class Turma {
                 this.alunos[i] = aluno;
                 break;
             }
-            quantidadeAlunos ++;
+            quantidadeAlunos++;
         }
     }
 
@@ -39,7 +39,7 @@ public class Turma {
             }
         }
 
-        if(melhor != null){
+        if(melhor!= null){
             System.out.println("Melhor aluno: " + melhor.getNome());
             System.out.println("Média: " + melhor.calculaMedia());
         }else {

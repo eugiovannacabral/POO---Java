@@ -2,7 +2,7 @@ package Aula18;
 
 public class Pessoa {
     private String nome;
-    private String idade;
+    private int idade;
 
     public Pessoa(String nome, int idade){ //METODO CONSTRUTOR executa algo que vai acontecer apenas 1 vez para cada instancia ou seja para cada objeto
         System.out.println("Criando instância de Pessoa com 2 parâmetros");
